@@ -30,7 +30,7 @@ A simple and clean **Employee Payroll CRUD (Create, Read, Update, Delete)** syst
 
 1. ### **Login Page**  
    ![Login Page](https://github.com/Antoinette2325/CRUD/blob/master/images/LOGIN%20PAGE.png)  
-   Users can log in with their registered credentials.
+   Users can log in with their registered credentials like your email and password.
 
 2. ### **Register Page**  
    ![Register Page](images/REGISTER.png)  
@@ -42,17 +42,17 @@ A simple and clean **Employee Payroll CRUD (Create, Read, Update, Delete)** syst
 
 4. ### **Admin Dashboard**  
    ![Admin Dashboard](images/ADMINDASHBOARD.png)  
-   Overview of users and payroll with access to all system functionalities.
+View the employee count, and allow the admin to add users to the employee list.
 
-5. ### **Employee List**  
+6. ### **Employee List**  
    ![Employee List](https://github.com/Antoinette2325/CRUD/blob/master/images/EMPLOYEE%20LIST.png)  
    Displays all employee records with options to edit or delete.
 
-6. ### **Payroll Page**  
+7. ### **Payroll Page**  
    ![Payroll Page](images/PAYROLL.png)  
-   Displays detailed payroll information including regular hours, overtime, and calculated pay.
+   Displays detailed payroll information including regular hours, Holidays, and calculated pay and the admin can edit or delete the payroll of the employee.
 
-7. ### **Edit Payroll Page**  
+8. ### **Edit Payroll Page**  
    ![Edit Payroll](images/UPDATEPAYROLL.png)  
    Admins can update existing payroll entries.
 
@@ -61,14 +61,18 @@ A simple and clean **Employee Payroll CRUD (Create, Read, Update, Delete)** syst
 bash
 Copy
 Edit
+
 git clone https://github.com/yourusername/employee-payroll-system.git
-2. Install Dependencies:
+
+3. Install Dependencies:
 Ensure you have a PHP server like XAMPP or MAMP installed.
 bash
 Copy
 Edit
+
 # Navigate to your project directory
 cd employee-payroll-system
+
 3. Set Up the Database:
 Create a MySQL database and import the provided database.sql file (or manually set up the database schema).
 Update the database connection settings in config.php.
@@ -82,11 +86,13 @@ $conn = new mysqli('localhost', 'root', '', 'employee_payroll');
 Start your PHP server and open the application in your browser at http://localhost/employee-payroll-system.
 
 # Technologies Used
-## Backend: PHP
+## Backend: 
+PHP
 
 ## Frontend: 
 HTML, Tailwind CSS, JavaScript, 
 
-## Database: MySQL
+## Database:
+MySQL
 
 
