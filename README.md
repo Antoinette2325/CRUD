@@ -29,7 +29,7 @@ A simple and clean **Employee Payroll CRUD (Create, Read, Update, Delete)** syst
 ## 🖼️ Screenshots
 
 1. ### **Login Page**  
-   ![Login Page](images/LOGINPAGE.png)  
+   ![Login Page](https://github.com/Antoinette2325/CRUD/blob/master/images/LOGIN%20PAGE.png)  
    Users can log in with their registered credentials.
 
 2. ### **Register Page**  
