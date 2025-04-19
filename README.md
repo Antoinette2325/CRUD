@@ -1,76 +1,35 @@
-**Employee Payroll CRUD System**
-Description:
-This is a simple Employee Payroll CRUD (Create, Read, Update, Delete) system built with PHP and MySQL. It allows admins to manage employee payrolls, including viewing, editing, and updating employee pay details. The system includes secure login, user registration, and a password reset feature.
+# CRUD 
 
-**Features**
-User Registration: New users can create an account by filling in the necessary details.
+## LOG IN PAGE
+![LOG IN PAGE](https://github.com/user-attachments/assets/6395aeed-ef3d-4ca5-a2df-f9bed3442713)
+This is the **Login Page** where users authenticate themselves to gain access to the dashboard. The form includes fields for entering the username and password, along with a submit button to log in.
 
-Login System: Registered users can log in securely.
+---
 
-Forgot Password: Allows users to reset their password using a token-based system sent to their email.
+## DASHBOARD
+![DASHBOARD](https://github.com/user-attachments/assets/834e411a-1316-4847-95cd-34cdaf9cff2b)
+The **Dashboard** serves as the main interface after logging in, providing users with an overview of the system's functionality. Here, users can view existing records, navigate through different sections, and perform actions like creating, updating, or deleting records.
 
-Admin Dashboard: Admins can manage users, view employee payroll data, and perform CRUD operations.
+---
 
-Payroll Management: Admins can add, view, edit, and delete payroll details for employees.
+## UPDATE
+![UPDATE](https://github.com/user-attachments/assets/274993ad-d7c0-41c0-9a10-05931ade497c)
+This screenshot displays the **Update Page**, where users can modify existing records. The form is pre-filled with the current values, allowing users to easily make changes and save them.
 
-### Screenshots
+---
 
-1. **Login Page**  
-    ![Login Page](images\LOGINPAGE.png)  
-    The login page allows users to log into the system by entering their email and password.
+## DELETE
+![DELETE (2)](https://github.com/user-attachments/assets/a8d02ef7-e245-4615-aa44-5a5277dea67e)
+This image shows the **Delete Confirmation Prompt** that appears when a user attempts to delete a record. The prompt ensures that the user intends to perform this action, preventing accidental deletions.
 
-2. **Register Page**  
-    ![Register Page](images\REGISTER.png)  
-    New users can register by providing their details like name, email, and password and role.
+---
 
-3. **Forgot Password Page**  
-    ![Forgot Password Page](images\FORGORPASSWORD.png)  
-    If users forget their password, they can reset it using a token sent to their email.
+## DELETE CONFIRMATION OTP
+![DELETE CONFIRMATION OTP](https://github.com/user-attachments/assets/59cfd228-45a9-41e4-9e90-1248d01fc254)
+The **Delete Confirmation OTP** screen requires users to enter a one-time password (OTP) to confirm the deletion of a record. This adds an extra layer of security, ensuring that only authorized deletions are made.
 
-4. **Admin Dashboard**  
-    ![Admin Dashboard](images\ADMINDASHBOARD.png)  
-    The Admin Dashboard provides an overview of all employee data, including payroll details and the ability to perform CRUD operations.
+---
 
-5. **Payroll Page**  
-    ![Payroll Page](images\PAYROLL.png)  
-    The Payroll page displays employees' pay information such as regular hours, overtime, and total salary.
-
-6. **Edit Payroll Page**  
-    ![Edit Payroll Page](images\UPDATEPAYROLL.png)  
-    Admins can edit the payroll details for employees, including their hourly rate, regular hours, and overtime.
-
-
-How to Run the Project
-1. Clone the Repository:
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/employee-payroll-system.git
-2. Install Dependencies:
-Ensure you have a PHP server like XAMPP or MAMP installed.
-bash
-Copy
-Edit
-# Navigate to your project directory
-cd employee-payroll-system
-3. Set Up the Database:
-Create a MySQL database and import the provided database.sql file (or manually set up the database schema).
-
-Update the database connection settings in config.php.
-
-Example database connection setup:
-
-php
-Copy
-Edit
-$conn = new mysqli('localhost', 'root', '', 'employee_payroll');
-4. Run the Application:
-Start your PHP server and open the application in your browser at http://localhost/employee-payroll-system.
-
-**Technologies Used**
-
-Backend: PHP
-Frontend: HTML, Tailwind CSS, JavaScript, 
-Database: MySQL
-
-
+## RESET PASSWORD OTP
+![RESET PASSWORD OTP](https://github.com/user-attachments/assets/00d24893-bb8e-4fb8-a446-11f62dde894f)
+The **Reset Password OTP** page is part of the password recovery process. Users are required to enter an OTP sent to their email or phone to verify their identity before they can reset their password.
