@@ -28,19 +28,19 @@ A simple and clean **Employee Payroll CRUD (Create, Read, Update, Delete)** syst
 
 ## 🖼️ Screenshots
 
-1. ### **LOGIN PAGE**  
+1. ### **LOGIN**  
    ![Login Page](https://github.com/Antoinette2325/CRUD/blob/master/images/LOGIN%20PAGE.png)  
    Users can log in with their registered credentials like your email and password.
 
-2. ### **REGISTER PAGE**  
+2. ### **REGISTER**  
    ![Register Page](images/REGISTER.png)  
    Allows creation of new accounts.
 
-3. ### **FORGOT PASSWORD PAGE**  
+3. ### **FORGOT PASSWORD**  
    ![Forgot Password](images/FORGORPASSWORD.png)  
    Users can request a password reset token via email.
 
-4. ### **ADMIN DASHBOARD PAGE **  
+4. ### **ADMIN DASHBOARD**  
    ![Admin Dashboard](images/ADMINDASHBOARD.png)  
 View the employee count, and allow the admin to add users to the employee list.
 
@@ -48,11 +48,11 @@ View the employee count, and allow the admin to add users to the employee list.
    ![Employee List](https://github.com/Antoinette2325/CRUD/blob/master/images/EMPLOYEE%20LIST.png)  
    Displays all employee records with options to edit or delete.
 
-7. ### **PAYROLL PAGE**  
+7. ### **PAYROLL**  
    ![Payroll Page](images/PAYROLL.png)  
    Displays detailed payroll information including regular hours, Holidays, and calculated pay and the admin can edit or delete the payroll of the employee.
 
-8. ### **Edit Payroll Page**  
+8. ### **UPDATE PAYROLL**  
    ![Edit Payroll](images/UPDATEPAYROLL.png)  
    Admins can update existing payroll entries.
    
