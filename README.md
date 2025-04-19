@@ -68,6 +68,7 @@ $conn = new mysqli('localhost', 'root', '', 'employee_payroll');
 Start your PHP server and open the application in your browser at http://localhost/employee-payroll-system.
 
 **Technologies Used**
+
 Backend: PHP
 Frontend: HTML, Tailwind CSS, JavaScript, 
 Database: MySQL
