@@ -15,7 +15,7 @@ Payroll Management: Admins can add, view, edit, and delete payroll details for e
 ### Screenshots
 
 1. **Login Page**  
-    ![Login Page](images\LOGIN PAGE.png)  
+    ![Login Page](images\LOGINPAGE.png)  
     The login page allows users to log into the system by entering their email and password.
 
 2. **Register Page**  
