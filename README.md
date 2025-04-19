@@ -1,7 +1,8 @@
-Employee Payroll CRUD System
-Description: This is a simple Employee Payroll CRUD (Create, Read, Update, Delete) system built with PHP and MySQL. It allows admins to manage employee payrolls, including viewing, editing, and updating employee pay details. The system includes secure login, user registration, and a password reset feature.
+**Employee Payroll CRUD System**
+Description:
+This is a simple Employee Payroll CRUD (Create, Read, Update, Delete) system built with PHP and MySQL. It allows admins to manage employee payrolls, including viewing, editing, and updating employee pay details. The system includes secure login, user registration, and a password reset feature.
 
-Features
+**Features**
 User Registration: New users can create an account by filling in the necessary details.
 
 Login System: Registered users can log in securely.
@@ -66,7 +67,7 @@ $conn = new mysqli('localhost', 'root', '', 'employee_payroll');
 4. Run the Application:
 Start your PHP server and open the application in your browser at http://localhost/employee-payroll-system.
 
-Technologies Used
+**Technologies Used**
 Backend: PHP
 Frontend: HTML, Tailwind CSS, JavaScript, 
 Database: MySQL
