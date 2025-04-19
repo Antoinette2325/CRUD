@@ -22,39 +22,41 @@ A simple and clean **Employee Payroll CRUD (Create, Read, Update, Delete)** syst
   Admins can view a list of all employees with their names, roles, and actions (edit/delete).
 
 - 💸 **Payroll Management**  
-  Admins can add, edit, view, and delete payroll records including salary, hours worked, and overtime.
+  Admins can add, edit, view, and delete payroll records including salary, hours worked
 
 ---
 
 ## 🖼️ Screenshots
 
-1. ### **Login Page**  
+1. ### **LOGIN PAGE**  
    ![Login Page](https://github.com/Antoinette2325/CRUD/blob/master/images/LOGIN%20PAGE.png)  
    Users can log in with their registered credentials like your email and password.
 
-2. ### **Register Page**  
+2. ### **REGISTER PAGE**  
    ![Register Page](images/REGISTER.png)  
    Allows creation of new accounts.
 
-3. ### **Forgot Password Page**  
+3. ### **FORGOT PASSWORD PAGE**  
    ![Forgot Password](images/FORGORPASSWORD.png)  
    Users can request a password reset token via email.
 
-4. ### **Admin Dashboard**  
+4. ### **ADMIN DASHBOARD PAGE **  
    ![Admin Dashboard](images/ADMINDASHBOARD.png)  
 View the employee count, and allow the admin to add users to the employee list.
 
-6. ### **Employee List**  
+6. ### **EMPLOYEE LIST**  
    ![Employee List](https://github.com/Antoinette2325/CRUD/blob/master/images/EMPLOYEE%20LIST.png)  
    Displays all employee records with options to edit or delete.
 
-7. ### **Payroll Page**  
+7. ### **PAYROLL PAGE**  
    ![Payroll Page](images/PAYROLL.png)  
    Displays detailed payroll information including regular hours, Holidays, and calculated pay and the admin can edit or delete the payroll of the employee.
 
 8. ### **Edit Payroll Page**  
    ![Edit Payroll](images/UPDATEPAYROLL.png)  
    Admins can update existing payroll entries.
+   
+---
 
 ## How to Run the Project
 1. Clone the Repository:
