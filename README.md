@@ -1,43 +1,60 @@
-Employee Payroll CRUD System
-Description: This is a simple Employee Payroll CRUD (Create, Read, Update, Delete) system built with PHP and MySQL. It allows admins to manage employee payrolls, including viewing, editing, and updating employee pay details. The system includes secure login, user registration, and a password reset feature.
+# 🧾 Employee Payroll CRUD System
 
-Features
-User Registration: New users can create an account by filling in the necessary details.
+A simple and clean **Employee Payroll CRUD (Create, Read, Update, Delete)** system built using **PHP** and **MySQL**. It enables admin users to manage employee data, view/edit payrolls, register new accounts, and reset passwords securely.
 
-Login System: Registered users can log in securely.
+---
 
-Forgot Password: Allows users to reset their password using a token-based system sent to their email.
+## 🚀 Features
 
-Admin Dashboard: Admins can manage users, view employee payroll data, and perform CRUD operations.
+- 🔐 **User Registration**  
+  New users can register by providing their name, email, password, and role.
 
-Payroll Management: Admins can add, view, edit, and delete payroll details for employees.
+- 🔓 **Login System**  
+  Registered users can log in securely using their credentials.
 
-### Screenshots
+- ❓ **Forgot Password**  
+  Users can reset their password via email-based token verification.
 
-1. **Login Page**  
-    ![Login Page](images\LOGINPAGE.png)  
-    The login page allows users to log into the system by entering their email and password.
+- 🧑‍💼 **Admin Dashboard**  
+  Provides a centralized view of users and employee data. Allows CRUD operations on payrolls.
 
-2. **Register Page**  
-    ![Register Page](images\REGISTER.png)  
-    New users can register by providing their details like name, email, and password and role.
+- 📋 **Employee List**  
+  Admins can view a list of all employees with their names, roles, and actions (edit/delete).
 
-3. **Forgot Password Page**  
-    ![Forgot Password Page](images\FORGORPASSWORD.png)  
-    If users forget their password, they can reset it using a token sent to their email.
+- 💸 **Payroll Management**  
+  Admins can add, edit, view, and delete payroll records including salary, hours worked, and overtime.
 
-4. **Admin Dashboard**  
-    ![Admin Dashboard](images\ADMINDASHBOARD.png)  
-    The Admin Dashboard provides an overview of all employee data, including payroll details and the ability to perform CRUD operations.
+---
 
-5. **Payroll Page**  
-    ![Payroll Page](images\PAYROLL.png)  
-    The Payroll page displays employees' pay information such as regular hours, overtime, and total salary.
+## 🖼️ Screenshots
 
-6. **Edit Payroll Page**  
-    ![Edit Payroll Page](images\UPDATEPAYROLL.png)  
-    Admins can edit the payroll details for employees, including their hourly rate, regular hours, and overtime.
+1. ### **Login Page**  
+   ![Login Page](images/LOGINPAGE.png)  
+   Users can log in with their registered credentials.
 
+2. ### **Register Page**  
+   ![Register Page](images/REGISTER.png)  
+   Allows creation of new accounts.
+
+3. ### **Forgot Password Page**  
+   ![Forgot Password](images/FORGORPASSWORD.png)  
+   Users can request a password reset token via email.
+
+4. ### **Admin Dashboard**  
+   ![Admin Dashboard](images/ADMINDASHBOARD.png)  
+   Overview of users and payroll with access to all system functionalities.
+
+5. ### **Employee List**  
+   ![Employee List](https://github.com/Antoinette2325/CRUD/blob/master/images/EMPLOYEE%20LIST.png)  
+   Displays all employee records with options to edit or delete.
+
+6. ### **Payroll Page**  
+   ![Payroll Page](images/PAYROLL.png)  
+   Displays detailed payroll information including regular hours, overtime, and calculated pay.
+
+7. ### **Edit Payroll Page**  
+   ![Edit Payroll](images/UPDATEPAYROLL.png)  
+   Admins can update existing payroll entries.
 
 How to Run the Project
 1. Clone the Repository:
