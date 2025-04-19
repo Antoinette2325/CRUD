@@ -56,7 +56,7 @@ A simple and clean **Employee Payroll CRUD (Create, Read, Update, Delete)** syst
    ![Edit Payroll](images/UPDATEPAYROLL.png)  
    Admins can update existing payroll entries.
 
-How to Run the Project
+## How to Run the Project
 1. Clone the Repository:
 bash
 Copy
@@ -71,11 +71,9 @@ Edit
 cd employee-payroll-system
 3. Set Up the Database:
 Create a MySQL database and import the provided database.sql file (or manually set up the database schema).
-
 Update the database connection settings in config.php.
 
-Example database connection setup:
-
+# Example database connection setup:
 php
 Copy
 Edit
@@ -83,9 +81,12 @@ $conn = new mysqli('localhost', 'root', '', 'employee_payroll');
 4. Run the Application:
 Start your PHP server and open the application in your browser at http://localhost/employee-payroll-system.
 
-Technologies Used
-Backend: PHP
-Frontend: HTML, Tailwind CSS, JavaScript, 
-Database: MySQL
+# Technologies Used
+## Backend: PHP
+
+## Frontend: 
+HTML, Tailwind CSS, JavaScript, 
+
+## Database: MySQL
 
 
