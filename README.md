@@ -1,32 +1,31 @@
-# 🧾 Employee Payroll CRUD System
+#  Employee Payroll CRUD System
 
 A simple and clean **Employee Payroll CRUD (Create, Read, Update, Delete)** system built using **PHP** and **MySQL**. It enables admin users to manage employee data, view/edit payrolls, register new accounts, and reset passwords securely.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔐 **User Registration**  
+-  **User Registration**  
   New users can register by providing their name, email, password, and role.
 
-- 🔓 **Login System**  
+-  **Login System**  
   Registered users can log in securely using their credentials.
 
-- ❓ **Forgot Password**  
+-  **Forgot Password**  
   Users can reset their password via email-based token verification.
 
-- 🧑‍💼 **Admin Dashboard**  
+- **Admin Dashboard**  
   Provides a centralized view of users and employee data. Allows CRUD operations on payrolls.
 
-- 📋 **Employee List**  
+- **Employee List**  
   Admins can view a list of all employees with their names, roles, and actions (edit/delete).
 
-- 💸 **Payroll Management**  
+- **Payroll Management**  
   Admins can add, edit, view, and delete payroll records including salary, hours worked
 
 ---
 
-## 🖼️ Screenshots
 
 1. ### **LOGIN**  
    ![Login Page](https://github.com/Antoinette2325/CRUD/blob/master/images/LOGIN%20PAGE.png)  
@@ -94,7 +93,7 @@ Start your PHP server and open the application in your browser at http://localho
 PHP
 
 ## Frontend: 
-HTML, Tailwind CSS, JavaScript, 
+HTML, Tailwind CSS
 
 ## Database:
 MySQL
